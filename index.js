@@ -4,6 +4,9 @@ function getFirstLetter(chineseCharacter){
     if(typeof str !== "string" || chineseCharacter.length > 1){
         throw new Error("Invalid argument type or length");
     }
+    if(!chineseCharacter){
+        return chineseCharacter;
+    }
     var unicode = chineseCharacter.charCodeAt(0);
     if(unicode > 40869 || unicode < 19968)
         return chineseCharacter;
