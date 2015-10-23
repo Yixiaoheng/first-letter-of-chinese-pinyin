@@ -1,5 +1,5 @@
 {
-  "name": "firstLetterOfChinesePinYin",
+  "name": "first-letter-of-chinese-pinyin",
   "version": "0.1.0",
   "description": "library of gettiing first letter of pinyin of a chinese character, CommonJS compatible---获取汉字的拼音首字母",
   "main": "index.js",
@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/khejing/firstLetterOfChinesePinYin.git"
+    "url": "https://github.com/khejing/first-letter-of-chinese-pinyin.git"
   },
   "author": "Will Lee",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/khejing/firstLetterOfChinesePinYin/issues"
+    "url": "https://github.com/khejing/first-letter-of-chinese-pinyin/issues"
   },
-  "homepage": "https://github.com/khejing/firstLetterOfChinesePinYin"
+  "homepage": "https://github.com/khejing/first-letter-of-chinese-pinyin"
 }
