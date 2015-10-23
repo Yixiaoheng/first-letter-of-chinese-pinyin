@@ -1,2 +1,2 @@
-# firstLetterOfChinesePinYin
+# first-letter-of-chinese-pinyin
 library of gettiing first letter of pinyin of a chinese character, CommonJS compatible---获取汉字的拼音首字母
