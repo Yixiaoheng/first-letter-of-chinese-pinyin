@@ -8,8 +8,12 @@ function getFirstLetter(chineseCharacter){
         return chineseCharacter;
     }
     var unicode = chineseCharacter.charCodeAt(0);
-    if(unicode > 40869 || unicode < 19968)
+    if(unicode > 40869 || unicode < 19968){
+        if(chineseCharacter <= "a" && chineseCharacter >= "z"){
+            return chineseCharater.toUpperCase();
+        }
         return chineseCharacter;
+    }
     return chineseFirstPY.charAt(unicode - 19968);
 }
 
